@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.main_container {
+    
+    width: 70%;
+    height: 550px;
+    margin-top: 80px;
+    border-radius: 10px;
+    display: flex; gap: 1rem;
+}
+
+.row1 {
+    
+    width: 150%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.row2 {
+    
+    width: 50%;
+    border-radius: 10px; gap: 1rem;
+    background-color: white;
+}
+
+.col1 {
+    
+    height: 50%;
+    border-radius: 10px;
+    display: flex; gap: 1rem;
+}
+
+.col2 {
+    
+    height: 50%;
+    border-radius: 10px;
+    display: flex; gap: 1rem;
+}
+
+.row3 {
+    
+    width: 70%;
+    border-radius: 10px; gap: 1rem;
+    background-color: hsl(263, 55%, 52%);
+    
+}
+
+.row4 {
+    
+    width: 30%;
+    border-radius: 10px; gap: 1rem;
+    background-color: hsl(217, 19%, 35%);
+}
+
+.row5 {
+    
+    width: 30%;
+    border-radius: 10px; gap: 1rem;
+    background-color: white;
+}
+
+.row6 {
+    
+    width: 70%;
+    border-radius: 10px; gap: 1rem;
+    background-color: hsl(219, 29%, 14%);
+}
+
+.img {
+    float: left;
+    margin-left: 7px;
+    margin-top: 7px;
+    display: flex;
+    flex-direction: row;
+}
+
+.image_profile {
+    border-radius: 50%;
+    border: 2px solid rgb(254, 254, 254);
+    width: 50px;
+    height: 50px;
+}
+.name {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_name {
+    margin-left: 10px;
+    font-size: smaller;
+    color: white;
+
+}
+
+.verified {
+    margin-left: 18px;
+    font-size: small;
+    color: white;
+    opacity: 50%;
+}
+
+.quotation {
+    margin-left: 200px;
+    height: 80px;
+}
+
+.common_profiles {
+    display: flex;
+    flex-direction: column;
+}
+
+.diff_matter {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading1 {
+    text-align: left;
+    padding-left: 25px;
+    margin-top: -20px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.heading2 {
+    text-align: left;
+    padding-left: 25px;
+    opacity: 70%;
+    color: rgb(199, 199, 199);
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.attribution { 
+    font-size: 11px;
+     text-align: center; 
+    }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+@media only screen and (max-width: 450px) { 
+    
+   .main_container {
+       display: flex;
+       flex-direction: column;
+   }
+
+   .row1 {
+       display: flex;
+       flex-direction: column;
+   } 
+
+   .row2 {
+       display: flex;
+       flex-direction: column;
+   }
+
+   .col1 {
+       display: flex;
+       flex-direction: column;
+   }
+
+   .row3 {
+       height: 400px;
+   }
+
+   .row4 {
+       width: 255px;
+       height: 300px;
+   }
+   
+   .col2 {
+    display: flex;
+    flex-direction: column;
+
+   }
+
+   .row5 {
+       display: flex;
+       flex-direction: column;
+       width: 255px;
+       height: 255px;
+   }
+
+   .row6 {
+    display: flex;
+    flex-direction: column;
+    height: 355px;
+
+   }
+
+   .row2 {
+    width: 255px;
+    height: 955px;
+    
+
+   }
+
+   .profile_name {
+    margin-left: -25px;
+    font-size: smaller;
+    width: 150px;
+    color: white;
+
+}
+
+.verified {
+    margin-left: -20px;
+    font-size: small;
+    color: white;
+    opacity: 50%;
+}
+
+.quotation {
+    margin-left: -20px;
+    height: 50px;
+}
+
+.heading1 {
+    text-align: left;
+    padding-left: 15px;
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.heading2 {
+    text-align: left;
+    padding-left: 15px;
+    opacity: 70%;
+    color: rgb(199, 199, 199);
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+
+.attribution {
+    font-size: 55px; 
+    text-align: center;
+    
+            }
+    
+.attribution a { 
+   color: hsl(228, 45%, 44%);
+               }
+    
+}
+
+
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 40px;
+            }
+    
+.attribution a { 
+   color: hsl(228, 45%, 44%);
+               }
